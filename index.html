@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Calculator app</title>
+
+  <link rel="stylesheet" href="./indix.css">
+
+</head>
+
+<body>
+
+  <div class=""id="contaneir">
+  <div class="merhaba" id="contaneir">
+
+
+    <div class="contaneir" id="contaneir">
+      <div class="bir">
+        <p class="par">calc</p>
+        <div class="mood">
+          <form action="">
+
+            <label for="">normal mode</label>
+            <input type="radio" id="nam1" name="da">
+          </form>
+        </div>
+      </div>
+      <div class="text" dir="rtl">
+        <input type="text" placeholder="0" id="tex">
+      </div>
+
+      <!-- BODY -->
+      <div class="row">
+        <div class="col-1">
+          <button onclick="display('9')" value="">9</button>
+          <button onclick="display('8')" value="8">8</button>
+          <button onclick="display('7')" value="7">7</button>
+          <button onclick="Delete()" value="" class="lon">DEL</button>
+        </div>
+        <div class="col-2">
+          <button onclick="display('6')" value="6">6</button>
+          <button onclick="display('5')" value="5">5</button>
+          <button onclick="display('4')" value="4">4</button>
+          <button onclick="display('+')" value="-">+</button>
+        </div>
+        <div class="col-3">
+          <button onclick="display('1')" value="1">1</button>
+          <button onclick="display('2')" value="2">2</button>
+          <button onclick="display('3')" value="3">3</button>
+          <button onclick="display('-')" value="-">-</button>
+        </div>
+        <div class="col-4">
+          <button onclick="display('.')" value=".">.</button>
+          <button onclick="display('0')" value="0">0</button>
+          <button onclick="display('/')" value="/">/</button>
+          <button onclick="display('*')" value="*">*</button>
+        </div>
+        <div class="col-4">
+          <button onclick="Clear()" value="" class="lon">RESET</button>
+          <button onclick="calc()" value="=" class="calk">=</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <script src="./index.js"></script>
+
+</body>
+
+</html>

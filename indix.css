@@ -1,0 +1,153 @@
+* {
+  margin: 0%;
+  padding: 0;
+}
+.merhaba {
+  background: #3b4664;
+  color: white;
+}
+.contaneir {
+  width: 40%;
+  margin: auto;
+}
+.bir {
+   padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+/**/
+.text input {
+  background: #181f32;
+  border-radius: 10px;
+  width: 100%;
+  border-style: none;
+  border-style: none;
+  font-size: 60px;
+  padding: 40px 0px;
+  margin: 10px 0px;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+}
+/**/
+
+.col-1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.col-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.col-3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.col-4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.col-5 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.row {
+  background-color: #181f32;
+  border-radius: 10px;
+  padding: 15px;
+
+}
+button {
+  color: #344065;
+  border-radius: 10px;
+  background-color: #eae3db;
+  border-style: none;
+  width: 100%;
+  margin: 15px;
+  font-weight: bold;
+  font-size: 40px;
+  box-shadow: 0px -5px 0px 0px #ad9b8d inset;
+  padding: 10px 10px;
+}
+
+button:hover{
+      color: white;
+         box-shadow: 0 0 0 0 #ad9b8d inset;
+}
+
+.lon {
+  background-color: #a2b3e1;
+  box-shadow: 0px -5px 0px 0px #344065 inset;
+  color: white;
+}
+.calk {
+  background-color: #fc4630;
+  box-shadow: 0px -5px 0px 0px #a22313 inset;
+  color: white;
+}
+
+
+.whitmod button {
+  color: #344065;
+  background-color: #e5e4e0;
+  box-shadow: 0px -5px 0px 0px #a49c90 inset;
+}
+.whitmod .row {
+  background-color: #d3cdcd;
+}
+.whitmod .calk {
+  background-color: #ff8b38;
+  box-shadow: 0px -5px 0px 0px #883900 inset;
+  color: white;
+}
+.whitmod .lon {
+  background-color: #64b4bc;
+  box-shadow: 0px -5px 0px 0px #26646a inset;
+  color: white;
+}
+.whitmod .text input {
+  background:#eeeeee;
+  color: black;
+ 
+}
+.whitmod .merhaba {
+  background:#e6e6e6;
+  color: black;
+ 
+}
+@media (max-width:1300px) {
+  .contaneir {
+  width: 50%;
+  margin: auto;}
+}
+@media (max-width:1000px) {
+  .contaneir {
+  width: 55%;
+  margin: auto;}
+}
+@media (max-width:900px) {
+  .contaneir {
+  width: 65%;
+  margin: auto;
+}
+}
+@media (max-width:760px) {
+    .contaneir {
+  width: 75%;
+  margin: auto;
+}
+}
+@media (max-width:500px) {
+    .contaneir {
+  width: 95%;
+  margin: auto;
+}
+}
